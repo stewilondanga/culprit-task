@@ -27,11 +27,11 @@ const cellDescription = {
       message: "A small round table is situated near the study's bay window. There's a glass on it that smells of whisky."
     },
 
-    /*6: {
-    message: "Black ink paw prints and a blood stain are on the window sill."
-  },
+    6: {
+      message: "Black ink paw prints and a blood stain are on the window sill."
+    },
 
-  7: {
+    /*7: {
     message:
       "A big mantel clock is on the fireplace, it strikes one in the morning."
   },
