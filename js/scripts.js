@@ -197,9 +197,9 @@ function interrogatePartyGoers() {
   description.textContent = "Click a name to let Agatha interrogate him/her";
 }
 
-/*            const resetButton = document.querySelector(".reset");
+const resetButton = document.querySelector(".reset");
 
-            resetButton.addEventListener("click", resetGame);
+/*            resetButton.addEventListener("click", resetGame);
 
             function resetGame() {
                window.location.href = window.location.href;
