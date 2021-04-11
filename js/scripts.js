@@ -37,15 +37,12 @@ const cellDescription = {
     8: {
       message: "A red velvet ottoman is on the left of the desk, it's covered in rose petals."
     },
-    /*9: {
-    message:
-      "Lady Ashton has green eyes and blond hair, thin and tall she wears a black crinoline dress with a rip in the hem. She is 20 years old. She fidgets with her hands all the time",
-    interrogation:
-      "Agatha asks Lady Ashton about the rip on her dress, she looks very nervous and says that while beeing in the study she tripped on the floor carpet and the dress got caught under her feet tearing the hem. Some books from the  desk fell on the floor. There were cat paw prints on the desk. She ringed the bell for a waitress to help her, who arrived and said she needed to follow her in the sewing room. So she leaved the study with the waitress.",
-    culprit:
-      "Miss Ashton is not the culprit, she is  very clumsy, but she is no thief."
-  },
-  10: {
+    9: {
+      message: "Lady Ashton has green eyes and blond hair, thin and tall she wears a black crinoline dress with a rip in the hem. She is 20 years old. She fidgets with her hands all the time",
+      interrogation: "Agatha asks Lady Ashton about the rip on her dress, she looks very nervous and says that while beeing in the study she tripped on the floor carpet and the dress got caught under her feet tearing the hem. Some books from the  desk fell on the floor. There were cat paw prints on the desk. She ringed the bell for a waitress to help her, who arrived and said she needed to follow her in the sewing room. So she leaved the study with the waitress.",
+      culprit: "Miss Ashton is not the culprit, she is  very clumsy, but she is no thief."
+    },
+    /*10: {
     message:
       "Dr Granger wears a black evening suit. He is not very tall, but with a kind smile. He has a red rose tucked  on his jacket.",
     interrogation:
