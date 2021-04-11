@@ -158,14 +158,14 @@ a:hover {
   flex-flow: column wrap;
 }
 
-/*table {
+table {
   border: 2px solid #dfdfdf;
   overflow-x: auto;
   color: #333;
   border-collapse: collapse;
 }
 
-td {
+/*td {
   background-color: #cc9aff;
   width: 4em;
   height: 4em;
