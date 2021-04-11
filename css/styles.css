@@ -131,13 +131,13 @@ a:visited {
   color: #cc9aff;
 }
 
-/*a:focus,
+a:focus,
 a:hover {
   color: #8419f0;
   text-decoration: none;
 }
 
-.mistery-presentation {
+/*.mistery-presentation {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
