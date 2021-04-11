@@ -153,9 +153,9 @@ function showInterrogation(e) {
 
 const mansionInhabitants = document.querySelector(".interrogate-inhabitants");
 
-/*    mansionInhabitants.addEventListener("click", interrogateInhabitants);
+mansionInhabitants.addEventListener("click", interrogateInhabitants);
 
-    const partyGoers = document.querySelector(".interrogate-goers");
+/*    const partyGoers = document.querySelector(".interrogate-goers");
     partyGoers.addEventListener("click", interrogatePartyGoers);
 
     const misteryButtons = document.querySelectorAll(".mistery-button");
