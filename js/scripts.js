@@ -76,15 +76,12 @@ const cellDescription = {
       culprit: "Lord Grissom has the only fault of hating Lord Snob, he found that the ruby was a false, he certainly didn't steal it."
     },
 
-    /*16: {
-    message:
-      "Mr Strand is an old general, he wears a military evening dress. He has a bandage on his hand",
-    interrogation:
-      "Agatha asks Mr. Strand about the wound on his hand and why he was in the study. He tells that he came in the study to have a whisky and sit peacefully for a while. But entering the room he saw a mess. Books scattered on the floor, ink paw prints and rose petals everywhere. He then called for servants to come settle everything ringing the bell near the window, but he thinks the bell broke in that moment because it made a disturbing noise at which the cat, scared, scratched  him on the hand and run out of the room. Blood dripped on the window sill. He leaved the study to search for someone to bandage the wound.",
-    culprit:
-      "Mr Strand loves peace and good whisky, but definitively not a messy room. And surely not feisty cats. He is not the thief! "
-  },
-  17: {
+    16: {
+      message: "Mr Strand is an old general, he wears a military evening dress. He has a bandage on his hand",
+      interrogation: "Agatha asks Mr. Strand about the wound on his hand and why he was in the study. He tells that he came in the study to have a whisky and sit peacefully for a while. But entering the room he saw a mess. Books scattered on the floor, ink paw prints and rose petals everywhere. He then called for servants to come settle everything ringing the bell near the window, but he thinks the bell broke in that moment because it made a disturbing noise at which the cat, scared, scratched  him on the hand and run out of the room. Blood dripped on the window sill. He leaved the study to search for someone to bandage the wound.",
+      culprit: "Mr Strand loves peace and good whisky, but definitively not a messy room. And surely not feisty cats. He is not the thief! "
+    },
+    /*17: {
     message:
       "Lord Benjamin Snob, owner of coral Mansion and party host. He has heavy eyelids and a pointy nose. Tall and elegant, he wears a black silk suit.",
     interrogation:
