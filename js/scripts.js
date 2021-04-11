@@ -168,10 +168,10 @@ function interrogateInhabitants() {
     v.style.opacity = "0";
   });
 
-  /*      partyPeople.forEach(v => {
-          v.removeEventListener("click", showInterrogation);
-        });
-        inhabitants.forEach(v => {
+  partyPeople.forEach(v => {
+    v.removeEventListener("click", showInterrogation);
+  });
+  /*      inhabitants.forEach(v => {
           v.addEventListener("click", showInterrogation);
           v.style.opacity = "1";
         });
