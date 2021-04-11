@@ -99,16 +99,13 @@ const cellDescription = {
       culprit: "The butler hate the cook and her porridge, but he is a loyal servant. He is not the thief!"
     },
 
-    /*  20: {
-        message:
-          "The waitress, brunette petite and very pretty. She wears a waitress black uniform.",
-        interrogation:
-          "Agatha asks the waitress if she was in the study. The waitress tells her she was serving at the party all the time, except when a call came from the study. She entered the study and found Lady Ashton with a ripped hem on her dress. She accompanied her in the sewing room. There were books on the pavement and ink paw prints everywhere. She tought that stupid cat should have done the mess. She leaved the room with Lady Ashton.",
-        culprit:
-          "The waitress is a very busy waitress, she really has no time for stealing things. She is not the thief."
-      },
+    20: {
+      message: "The waitress, brunette petite and very pretty. She wears a waitress black uniform.",
+      interrogation: "Agatha asks the waitress if she was in the study. The waitress tells her she was serving at the party all the time, except when a call came from the study. She entered the study and found Lady Ashton with a ripped hem on her dress. She accompanied her in the sewing room. There were books on the pavement and ink paw prints everywhere. She tought that stupid cat should have done the mess. She leaved the room with Lady Ashton.",
+      culprit: "The waitress is a very busy waitress, she really has no time for stealing things. She is not the thief."
+    },
 
-      21: {
+    /*  21: {
         message:
           "The cook, a big rounded woman in her 50, wears a white cotton dress and a big apron with full pockets.",
         interrogation:
