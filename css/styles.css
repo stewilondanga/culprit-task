@@ -213,11 +213,11 @@ th {
   background-size: contain;
 }
 
-/*.credits {
+.credits {
   margin-top: 1em;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
