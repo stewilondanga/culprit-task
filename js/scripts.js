@@ -48,15 +48,12 @@ const cellDescription = {
       culprit: "Dr Granger lives a forbidden love, he is a thief, but a romantic one, he stole Lady Sullivan heart."
     },
 
-    /*11: {
-    message:
-      "Miss Lavander has big dreamy eyes and an intelligent expression. She wears a light green dress stained by black ink cat paw prints, she is in her 30s.",
-    interrogation:
-      "Agatha asks Miss Lavander about the cat paw prints on her dress, she says that she was searching for a book in the study, that Lord Snob talked her about and that that devilish creature of Faust jumped on her, dropping the ink bottle and staining her dress, scarying her to death,  so she leaved the study with no book whatsoever. There were no books on the floor. The ruby still intact.",
-    culprit:
-      "Miss  Lavander is an avid reader,  she loves books more then rubies,  she   certainly is not a thief."
-  },
-  12: {
+    11: {
+      message: "Miss Lavander has big dreamy eyes and an intelligent expression. She wears a light green dress stained by black ink cat paw prints, she is in her 30s.",
+      interrogation: "Agatha asks Miss Lavander about the cat paw prints on her dress, she says that she was searching for a book in the study, that Lord Snob talked her about and that that devilish creature of Faust jumped on her, dropping the ink bottle and staining her dress, scarying her to death,  so she leaved the study with no book whatsoever. There were no books on the floor. The ruby still intact.",
+      culprit: "Miss  Lavander is an avid reader,  she loves books more then rubies,  she   certainly is not a thief."
+    },
+    /*12: {
     message:
       "Mr Brimbutton is a medium height man in his 40s, he wears a satin night blue evening suit, he fidgets with a big golden pocket watch in his hand",
     interrogation:
