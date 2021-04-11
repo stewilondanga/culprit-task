@@ -151,9 +151,9 @@ function showInterrogation(e) {
   description.textContent = cellDescription[tableData].interrogation;
 }
 
-/*    const mansionInhabitants = document.querySelector(".interrogate-inhabitants");
+const mansionInhabitants = document.querySelector(".interrogate-inhabitants");
 
-    mansionInhabitants.addEventListener("click", interrogateInhabitants);
+/*    mansionInhabitants.addEventListener("click", interrogateInhabitants);
 
     const partyGoers = document.querySelector(".interrogate-goers");
     partyGoers.addEventListener("click", interrogatePartyGoers);
