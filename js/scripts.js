@@ -201,11 +201,11 @@ const resetButton = document.querySelector(".reset");
 
 resetButton.addEventListener("click", resetGame);
 
-/*            function resetGame() {
-               window.location.href = window.location.href;
-            }
+function resetGame() {
+  window.location.href = window.location.href;
+}
 
-            document.querySelector(".culprit").addEventListener("click", chooseCulprit);
+/*            document.querySelector(".culprit").addEventListener("click", chooseCulprit);
 
             function chooseCulprit() {
               misteryButtons.forEach(v => {
