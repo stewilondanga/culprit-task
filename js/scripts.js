@@ -31,11 +31,10 @@ const cellDescription = {
       message: "Black ink paw prints and a blood stain are on the window sill."
     },
 
-    /*7: {
-    message:
-      "A big mantel clock is on the fireplace, it strikes one in the morning."
-  },
-  8: {
+    7: {
+      message: "A big mantel clock is on the fireplace, it strikes one in the morning."
+    },
+    /*8: {
     message:
       "A red velvet ottoman is on the left of the desk, it's covered in rose petals."
   },
