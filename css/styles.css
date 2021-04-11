@@ -187,14 +187,14 @@ tr:nth-of-type(even) td:nth-of-type(even) {
   background-color: #f8bf86;
 }
 
-/*.button {
+.button {
   background-color: transparent;
   border: 4px double #000;
   transition: all 0.4s ease-in-out;
   font-family: "Gaegu", cursive;
 }
 
-.button:focus,
+/*.button:focus,
 .button:hover {
   border-color: #fff;
 }
