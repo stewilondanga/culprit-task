@@ -1,3 +1,11 @@
+body {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  max-width: 100%;
+  font-family: "Gaegu", cursive;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -107,13 +115,6 @@
   transition-delay: 0.4s;
 }
 
-body {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  max-width: 100%;
-  font-family: "Gaegu", cursive;
-}
 
 main,
 footer {
