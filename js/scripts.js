@@ -129,12 +129,12 @@ const cellDescription = {
   }
 };
 
-/*    const initialTableCell = document.querySelectorAll(".mistery-button");
-    initialTableCell.forEach((v, i) => {
-      v.addEventListener("click", showDescription);
-    });
+const initialTableCell = document.querySelectorAll(".mistery-button");
+initialTableCell.forEach((v, i) => {
+  v.addEventListener("click", showDescription);
+});
 
-    function showDescription(e) {
+/*    function showDescription(e) {
       let tableIndex = e.target.getAttribute("data-index");
 
       tableDescription(tableIndex);
