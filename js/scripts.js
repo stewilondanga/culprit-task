@@ -111,14 +111,13 @@ const cellDescription = {
       culprit: "The cook loves cooking more then rubies. She is not the culprit. But she can cook his formidable porridge for you if you want! "
     },
 
-    /*    22: {
-          message:
-            "Faust, Lord Snob's sphinx cat. It always stays in Lord Snob study.",
-          interrogation: "Meowwwww!",
-          culprit: "Meooww Meoowww Purrrrr!!!"
-        },
+    22: {
+      message: "Faust, Lord Snob's sphinx cat. It always stays in Lord Snob study.",
+      interrogation: "Meowwwww!",
+      culprit: "Meooww Meoowww Purrrrr!!!"
+    },
 
-        23: {
+    /*    23: {
           message:
             "The stableman, good-looking man in his 30, deep blue eyes and catchy smile. He wears a brown working suits.",
           interrogation:
