@@ -155,10 +155,10 @@ const mansionInhabitants = document.querySelector(".interrogate-inhabitants");
 
 mansionInhabitants.addEventListener("click", interrogateInhabitants);
 
-/*    const partyGoers = document.querySelector(".interrogate-goers");
-    partyGoers.addEventListener("click", interrogatePartyGoers);
+const partyGoers = document.querySelector(".interrogate-goers");
+partyGoers.addEventListener("click", interrogatePartyGoers);
 
-    const misteryButtons = document.querySelectorAll(".mistery-button");
+/*    const misteryButtons = document.querySelectorAll(".mistery-button");
     const inhabitants = document.querySelectorAll(".inhabitants");
     const partyPeople = document.querySelectorAll(".party-goers");
 
