@@ -160,9 +160,9 @@ partyGoers.addEventListener("click", interrogatePartyGoers);
 
 const misteryButtons = document.querySelectorAll(".mistery-button");
 const inhabitants = document.querySelectorAll(".inhabitants");
-/*    const partyPeople = document.querySelectorAll(".party-goers");
+const partyPeople = document.querySelectorAll(".party-goers");
 
-    function interrogateInhabitants() {
+/*    function interrogateInhabitants() {
       misteryButtons.forEach(v => {
         v.removeEventListener("click", showDescription);
         v.style.opacity = "0";
