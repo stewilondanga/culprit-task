@@ -199,14 +199,14 @@ tr:nth-of-type(even) td:nth-of-type(even) {
   border-color: #fff;
 }
 
-/*th {
+th {
   background-color: #cc9aff;
   border: 2px solid black;
   padding: 10px;
   font-family: "Sacramento", cursive;
 }
 
-.ruby {
+/*.ruby {
   background-image: url(https://s19.postimg.cc/jtzq4yhgz/ruby_small.png);
   background-color: transparent;
   background-repeat: no-repeat;
