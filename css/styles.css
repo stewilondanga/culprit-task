@@ -217,7 +217,7 @@ th {
   margin-top: 1em;
 }
 
-/*#contact h1 {
+#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
@@ -228,7 +228,7 @@ th {
   margin: 0 auto;
 }
 
-.cal {
+/*.cal {
   display: inline-block;
   background: #ffe;
   color: #555;
