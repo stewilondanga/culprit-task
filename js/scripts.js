@@ -146,12 +146,12 @@ function tableDescription(index) {
   description.textContent = cellDescription[index].message;
 }
 
-/*    function showInterrogation(e) {
-      let tableData = e.target.getAttribute("data-index");
-      description.textContent = cellDescription[tableData].interrogation;
-    }
+function showInterrogation(e) {
+  let tableData = e.target.getAttribute("data-index");
+  description.textContent = cellDescription[tableData].interrogation;
+}
 
-    const mansionInhabitants = document.querySelector(".interrogate-inhabitants");
+/*    const mansionInhabitants = document.querySelector(".interrogate-inhabitants");
 
     mansionInhabitants.addEventListener("click", interrogateInhabitants);
 
