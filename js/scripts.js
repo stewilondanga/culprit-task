@@ -70,16 +70,13 @@ const cellDescription = {
       interrogation: "Agatha asks Lord Sullivan if he was in the study and why. Red in the face for the anger he says he suspcets his wife to have an affair and wanted to caught her in the act of betraying him to have proof. But arriving in the study he saw everything was a mess,  books everywhere, the ruby gone. He ringed the bell, but seeing no one coming he leaved the study in search of Lord Snob.",
       culprit: "Lord Sullivan is an angry man, but not a thief, the ruby was already gone when he got in the study."
     },
-    /*15: {
-    message:
-      "Lord Stewart Grissom is a blond tall man, old school mate of Lord Snob from Eton. He has dark curious eyes and a piece of paper peeps from the pocket of his dark brown evening suit.",
-    interrogation:
-      "Agatha asks Lord Grissom if he was in the study. Lord Grissom tells Agatha that he suspected Snob was lying about the ruby. So he entered the study  to look at the ruby closely, books  were scattered on the floor and cat paw prints were on the desk, one opened book caught his attention. A page in the book revealed that the ruby was a false, finally his occasion of unmasking Lord Snob was in his hand!",
-    culprit:
-      "Lord Grissom has the only fault of hating Lord Snob, he found that the ruby was a false, he certainly didn't steal it."
-  },
+    15: {
+      message: "Lord Stewart Grissom is a blond tall man, old school mate of Lord Snob from Eton. He has dark curious eyes and a piece of paper peeps from the pocket of his dark brown evening suit.",
+      interrogation: "Agatha asks Lord Grissom if he was in the study. Lord Grissom tells Agatha that he suspected Snob was lying about the ruby. So he entered the study  to look at the ruby closely, books  were scattered on the floor and cat paw prints were on the desk, one opened book caught his attention. A page in the book revealed that the ruby was a false, finally his occasion of unmasking Lord Snob was in his hand!",
+      culprit: "Lord Grissom has the only fault of hating Lord Snob, he found that the ruby was a false, he certainly didn't steal it."
+    },
 
-  16: {
+    /*16: {
     message:
       "Mr Strand is an old general, he wears a military evening dress. He has a bandage on his hand",
     interrogation:
