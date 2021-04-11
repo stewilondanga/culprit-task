@@ -249,5 +249,5 @@ function showCulprit(e) {
     document.querySelector(".mistery").appendChild(ruby);
   }
 
-  /*                        description.textContent = cellDescription[tableData].culprit;
-                        }
+  description.textContent = cellDescription[tableData].culprit;
+}
