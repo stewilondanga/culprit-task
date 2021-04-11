@@ -65,15 +65,12 @@ const cellDescription = {
       culprit: "Lady Sullivan is a woman in love. Love is the culprit here. She isn't a  ruby's thief!"
     },
 
-    /*14: {
-    message:
-      "Lord Sullivan is a man of 70 years, dressed with an old damask gold evening suit. He has a stern angry look.",
-    interrogation:
-      "Agatha asks Lord Sullivan if he was in the study and why. Red in the face for the anger he says he suspcets his wife to have an affair and wanted to caught her in the act of betraying him to have proof. But arriving in the study he saw everything was a mess,  books everywhere, the ruby gone. He ringed the bell, but seeing no one coming he leaved the study in search of Lord Snob.",
-    culprit:
-      "Lord Sullivan is an angry man, but not a thief, the ruby was already gone when he got in the study."
-  },
-  15: {
+    14: {
+      message: "Lord Sullivan is a man of 70 years, dressed with an old damask gold evening suit. He has a stern angry look.",
+      interrogation: "Agatha asks Lord Sullivan if he was in the study and why. Red in the face for the anger he says he suspcets his wife to have an affair and wanted to caught her in the act of betraying him to have proof. But arriving in the study he saw everything was a mess,  books everywhere, the ruby gone. He ringed the bell, but seeing no one coming he leaved the study in search of Lord Snob.",
+      culprit: "Lord Sullivan is an angry man, but not a thief, the ruby was already gone when he got in the study."
+    },
+    /*15: {
     message:
       "Lord Stewart Grissom is a blond tall man, old school mate of Lord Snob from Eton. He has dark curious eyes and a piece of paper peeps from the pocket of his dark brown evening suit.",
     interrogation:
