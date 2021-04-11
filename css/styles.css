@@ -127,11 +127,11 @@ a:link {
   color: #fdac5b;
 }
 
-/*a:visited {
+a:visited {
   color: #cc9aff;
 }
 
-a:focus,
+/*a:focus,
 a:hover {
   color: #8419f0;
   text-decoration: none;
