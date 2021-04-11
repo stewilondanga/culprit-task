@@ -205,9 +205,9 @@ function resetGame() {
   window.location.href = window.location.href;
 }
 
-/*            document.querySelector(".culprit").addEventListener("click", chooseCulprit);
+document.querySelector(".culprit").addEventListener("click", chooseCulprit);
 
-            function chooseCulprit() {
+/*            function chooseCulprit() {
               misteryButtons.forEach(v => {
                 v.removeEventListener("click", showDescription);
                 v.style.opacity = "0";
