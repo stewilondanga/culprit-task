@@ -206,14 +206,14 @@ th {
   font-family: "Sacramento", cursive;
 }
 
-/*.ruby {
+.ruby {
   background-image: url(https://s19.postimg.cc/jtzq4yhgz/ruby_small.png);
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.credits {
+/*.credits {
   margin-top: 1em;
 }
 
