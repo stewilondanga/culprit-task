@@ -34,11 +34,10 @@ const cellDescription = {
     7: {
       message: "A big mantel clock is on the fireplace, it strikes one in the morning."
     },
-    /*8: {
-    message:
-      "A red velvet ottoman is on the left of the desk, it's covered in rose petals."
-  },
-  9: {
+    8: {
+      message: "A red velvet ottoman is on the left of the desk, it's covered in rose petals."
+    },
+    /*9: {
     message:
       "Lady Ashton has green eyes and blond hair, thin and tall she wears a black crinoline dress with a rip in the hem. She is 20 years old. She fidgets with her hands all the time",
     interrogation:
