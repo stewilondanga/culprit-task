@@ -87,15 +87,13 @@ const cellDescription = {
       culprit: "Lord Snob is a fraude. The ruby was a false, and the theft will guarantee him 3 million dollars of ensurance, or maybe not... He is not the thief!"
     },
 
-    /*18: {
-    message:
-      "Lady Snob, small in height, wears a pink robe and white silk shoes, she loves to party",
-    interrogation:
-      "Agatha asks Lady Snob if she was in the study. Lady Snobs tells her that she  was not in the study,  she can't tolerate the sight of Faust the cat. She says she is not preoccupied for the gem, it in ensured for 3 million dollars in case of theft. But she is very upset to think that a thief is in her house.",
-    culprit: "Lady Snob, didn't stole the ruby, she only wants to party!"
-  },
+    18: {
+      message: "Lady Snob, small in height, wears a pink robe and white silk shoes, she loves to party",
+      interrogation: "Agatha asks Lady Snob if she was in the study. Lady Snobs tells her that she  was not in the study,  she can't tolerate the sight of Faust the cat. She says she is not preoccupied for the gem, it in ensured for 3 million dollars in case of theft. But she is very upset to think that a thief is in her house.",
+      culprit: "Lady Snob, didn't stole the ruby, she only wants to party!"
+    },
 
-  19: {
+    /*19: {
     message:
       "The butler wears a black suit. He is bald, tall and thin like an anchovy.",
     interrogation:
