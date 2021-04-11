@@ -175,11 +175,11 @@ td {
   text-align: center;
 }
 
-/*td:nth-of-type(odd) {
+td:nth-of-type(odd) {
   background-color: #f8bf86;
 }
 
-tr:nth-of-type(even) td:nth-of-type(odd) {
+/*tr:nth-of-type(even) td:nth-of-type(odd) {
   background-color: #cc9aff;
 }
 
