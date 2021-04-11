@@ -179,13 +179,13 @@ function interrogateInhabitants() {
   description.textContent = "Click a name to let Agatha interrogate him/her";
 }
 
-/*        function interrogatePartyGoers() {
-          misteryButtons.forEach(v => {
-            v.removeEventListener("click", showDescription);
-            v.style.opacity = "0";
-          });
+function interrogatePartyGoers() {
+  misteryButtons.forEach(v => {
+    v.removeEventListener("click", showDescription);
+    v.style.opacity = "0";
+  });
 
-          inhabitants.forEach(v => {
+  /*        inhabitants.forEach(v => {
             v.removeEventListener("click", showInterrogation);
             v.style.opacity = "0";
           });
