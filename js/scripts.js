@@ -23,12 +23,11 @@ const cellDescription = {
       message: "Many books are scattered on the floor, one of them with the title 'Ancient gems of the world' misses a page."
     },
 
-    /*5: {
-    message:
-      "A small round table is situated near the study's bay window. There's a glass on it that smells of whisky."
-  },
+    5: {
+      message: "A small round table is situated near the study's bay window. There's a glass on it that smells of whisky."
+    },
 
-  6: {
+    /*6: {
     message: "Black ink paw prints and a blood stain are on the window sill."
   },
 
