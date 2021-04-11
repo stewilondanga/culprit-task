@@ -207,47 +207,47 @@ function resetGame() {
 
 document.querySelector(".culprit").addEventListener("click", chooseCulprit);
 
-/*            function chooseCulprit() {
-              misteryButtons.forEach(v => {
-                v.removeEventListener("click", showDescription);
-                v.style.opacity = "0";
-              });
+function chooseCulprit() {
+  misteryButtons.forEach(v => {
+    v.removeEventListener("click", showDescription);
+    v.style.opacity = "0";
+  });
 
-              partyPeople.forEach(v => {
-                v.removeEventListener("click", showInterrogation);
-                v.addEventListener("click", showCulprit);
-                v.style.opacity = "1";
-              });
-
-              inhabitants.forEach(v => {
-                v.removeEventListener("click", showInterrogation);
-                v.addEventListener("click", showCulprit);
-                v.style.opacity = "1";
-              });
-            }
-
-            function showCulprit(e) {
-              let tableData = e.target.getAttribute("data-index");
-
-              if (tableData === "12") {
-                const ruby = document.createElement("img");
-                ruby.src = "https://s19.postimg.cc/jtzq4yhgz/ruby_small.png";
-
-                misteryButtons.forEach(v => {
-                  v.style.opacity = "0";
+  /*              partyPeople.forEach(v => {
+                  v.removeEventListener("click", showInterrogation);
+                  v.addEventListener("click", showCulprit);
+                  v.style.opacity = "1";
                 });
 
                 inhabitants.forEach(v => {
-                  v.removeEventListener("click", showCulprit);
+                  v.removeEventListener("click", showInterrogation);
+                  v.addEventListener("click", showCulprit);
+                  v.style.opacity = "1";
                 });
-
-                partyPeople.forEach(v => {
-                  v.removeEventListener("click", showCulprit);
-                });
-                document.querySelector(".mistery").style.opacity = 1;
-                document.querySelector(".mistery").textContent = "";
-                document.querySelector(".mistery").appendChild(ruby);
               }
 
-              description.textContent = cellDescription[tableData].culprit;
-            }
+              function showCulprit(e) {
+                let tableData = e.target.getAttribute("data-index");
+
+                if (tableData === "12") {
+                  const ruby = document.createElement("img");
+                  ruby.src = "https://s19.postimg.cc/jtzq4yhgz/ruby_small.png";
+
+                  misteryButtons.forEach(v => {
+                    v.style.opacity = "0";
+                  });
+
+                  inhabitants.forEach(v => {
+                    v.removeEventListener("click", showCulprit);
+                  });
+
+                  partyPeople.forEach(v => {
+                    v.removeEventListener("click", showCulprit);
+                  });
+                  document.querySelector(".mistery").style.opacity = 1;
+                  document.querySelector(".mistery").textContent = "";
+                  document.querySelector(".mistery").appendChild(ruby);
+                }
+
+                description.textContent = cellDescription[tableData].culprit;
+              }
