@@ -107,7 +107,7 @@ body {
   transition-delay: 0.4s;
 }
 
-/*main,
+main,
 footer {
   display: flex;
   flex-flow: column wrap;
@@ -118,7 +118,7 @@ footer {
   font-size: 1.4em;
 }
 
-h1 {
+/*h1 {
   font-family: "Sacramento", cursive;
   font-size: 2em;
 }
