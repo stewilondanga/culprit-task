@@ -153,12 +153,12 @@ a:hover {
   margin: 0;
 }
 
-/*.mistery-table {
+.mistery-table {
   display: flex;
   flex-flow: column wrap;
 }
 
-table {
+/*table {
   border: 2px solid #dfdfdf;
   overflow-x: auto;
   color: #333;
