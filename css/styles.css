@@ -165,7 +165,7 @@ table {
   border-collapse: collapse;
 }
 
-/*td {
+td {
   background-color: #cc9aff;
   width: 4em;
   height: 4em;
@@ -175,7 +175,7 @@ table {
   text-align: center;
 }
 
-td:nth-of-type(odd) {
+/*td:nth-of-type(odd) {
   background-color: #f8bf86;
 }
 
