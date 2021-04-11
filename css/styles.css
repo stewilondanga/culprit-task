@@ -137,7 +137,7 @@ a:hover {
   text-decoration: none;
 }
 
-/*.mistery-presentation {
+.mistery-presentation {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -147,7 +147,7 @@ a:hover {
   margin: 0;
 }
 
-.mistery-logo {
+/*.mistery-logo {
   max-width: 100px;
   display: block;
   margin: 0;
