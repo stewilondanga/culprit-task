@@ -162,92 +162,92 @@ const misteryButtons = document.querySelectorAll(".mistery-button");
 const inhabitants = document.querySelectorAll(".inhabitants");
 const partyPeople = document.querySelectorAll(".party-goers");
 
-/*    function interrogateInhabitants() {
-      misteryButtons.forEach(v => {
-        v.removeEventListener("click", showDescription);
-        v.style.opacity = "0";
-      });
+function interrogateInhabitants() {
+  misteryButtons.forEach(v => {
+    v.removeEventListener("click", showDescription);
+    v.style.opacity = "0";
+  });
 
-      partyPeople.forEach(v => {
-        v.removeEventListener("click", showInterrogation);
-      });
-      inhabitants.forEach(v => {
-        v.addEventListener("click", showInterrogation);
-        v.style.opacity = "1";
-      });
+  /*      partyPeople.forEach(v => {
+          v.removeEventListener("click", showInterrogation);
+        });
+        inhabitants.forEach(v => {
+          v.addEventListener("click", showInterrogation);
+          v.style.opacity = "1";
+        });
 
-      description.textContent = "Click a name to let Agatha interrogate him/her";
-    }
+        description.textContent = "Click a name to let Agatha interrogate him/her";
+      }
 
-    function interrogatePartyGoers() {
-      misteryButtons.forEach(v => {
-        v.removeEventListener("click", showDescription);
-        v.style.opacity = "0";
-      });
-
-      inhabitants.forEach(v => {
-        v.removeEventListener("click", showInterrogation);
-        v.style.opacity = "0";
-      });
-
-      partyPeople.forEach(v => {
-        v.addEventListener("click", showInterrogation);
-        v.style.opacity = "1";
-      });
-      description.textContent = "Click a name to let Agatha interrogate him/her";
-    }
-
-    const resetButton = document.querySelector(".reset");
-
-    resetButton.addEventListener("click", resetGame);
-
-    function resetGame() {
-       window.location.href = window.location.href;
-    }
-
-    document.querySelector(".culprit").addEventListener("click", chooseCulprit);
-
-    function chooseCulprit() {
-      misteryButtons.forEach(v => {
-        v.removeEventListener("click", showDescription);
-        v.style.opacity = "0";
-      });
-
-      partyPeople.forEach(v => {
-        v.removeEventListener("click", showInterrogation);
-        v.addEventListener("click", showCulprit);
-        v.style.opacity = "1";
-      });
-
-      inhabitants.forEach(v => {
-        v.removeEventListener("click", showInterrogation);
-        v.addEventListener("click", showCulprit);
-        v.style.opacity = "1";
-      });
-    }
-
-    function showCulprit(e) {
-      let tableData = e.target.getAttribute("data-index");
-
-      if (tableData === "12") {
-        const ruby = document.createElement("img");
-        ruby.src = "https://s19.postimg.cc/jtzq4yhgz/ruby_small.png";
-
+      function interrogatePartyGoers() {
         misteryButtons.forEach(v => {
+          v.removeEventListener("click", showDescription);
           v.style.opacity = "0";
         });
 
         inhabitants.forEach(v => {
-          v.removeEventListener("click", showCulprit);
+          v.removeEventListener("click", showInterrogation);
+          v.style.opacity = "0";
         });
 
         partyPeople.forEach(v => {
-          v.removeEventListener("click", showCulprit);
+          v.addEventListener("click", showInterrogation);
+          v.style.opacity = "1";
         });
-        document.querySelector(".mistery").style.opacity = 1;
-        document.querySelector(".mistery").textContent = "";
-        document.querySelector(".mistery").appendChild(ruby);
+        description.textContent = "Click a name to let Agatha interrogate him/her";
       }
 
-      description.textContent = cellDescription[tableData].culprit;
-    }
+      const resetButton = document.querySelector(".reset");
+
+      resetButton.addEventListener("click", resetGame);
+
+      function resetGame() {
+         window.location.href = window.location.href;
+      }
+
+      document.querySelector(".culprit").addEventListener("click", chooseCulprit);
+
+      function chooseCulprit() {
+        misteryButtons.forEach(v => {
+          v.removeEventListener("click", showDescription);
+          v.style.opacity = "0";
+        });
+
+        partyPeople.forEach(v => {
+          v.removeEventListener("click", showInterrogation);
+          v.addEventListener("click", showCulprit);
+          v.style.opacity = "1";
+        });
+
+        inhabitants.forEach(v => {
+          v.removeEventListener("click", showInterrogation);
+          v.addEventListener("click", showCulprit);
+          v.style.opacity = "1";
+        });
+      }
+
+      function showCulprit(e) {
+        let tableData = e.target.getAttribute("data-index");
+
+        if (tableData === "12") {
+          const ruby = document.createElement("img");
+          ruby.src = "https://s19.postimg.cc/jtzq4yhgz/ruby_small.png";
+
+          misteryButtons.forEach(v => {
+            v.style.opacity = "0";
+          });
+
+          inhabitants.forEach(v => {
+            v.removeEventListener("click", showCulprit);
+          });
+
+          partyPeople.forEach(v => {
+            v.removeEventListener("click", showCulprit);
+          });
+          document.querySelector(".mistery").style.opacity = 1;
+          document.querySelector(".mistery").textContent = "";
+          document.querySelector(".mistery").appendChild(ruby);
+        }
+
+        description.textContent = cellDescription[tableData].culprit;
+      }
