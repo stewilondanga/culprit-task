@@ -8,11 +8,10 @@ var navigate = (function() {
 })();
 
 const cellDescription = {
-    /*1: {
-    message:
-      "The display case is broken, the ruby missing, shattered pieces of glass are scattered on the floor."
-  },
-  2: {
+    1: {
+      message: "The display case is broken, the ruby missing, shattered pieces of glass are scattered on the floor."
+    },
+    /*2: {
     message:
       "An ink bottle on the desk is upside down, ink cat paw prints are visible here and there."
   },
