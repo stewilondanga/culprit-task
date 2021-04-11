@@ -42,16 +42,13 @@ const cellDescription = {
       interrogation: "Agatha asks Lady Ashton about the rip on her dress, she looks very nervous and says that while beeing in the study she tripped on the floor carpet and the dress got caught under her feet tearing the hem. Some books from the  desk fell on the floor. There were cat paw prints on the desk. She ringed the bell for a waitress to help her, who arrived and said she needed to follow her in the sewing room. So she leaved the study with the waitress.",
       culprit: "Miss Ashton is not the culprit, she is  very clumsy, but she is no thief."
     },
-    /*10: {
-    message:
-      "Dr Granger wears a black evening suit. He is not very tall, but with a kind smile. He has a red rose tucked  on his jacket.",
-    interrogation:
-      "Agatha asks Dr Granger if he was in the study and where he got  the rose on his jacket that  looks exactly like the petals on the ottoman. Agatha notices that at this question Dr Granger touches the rose on his jacket and sighs. He tells that he was having a rendez-vous with Lady Sullivan . A rose fell on the ottoman from her hairdo, missing some petals. He picked up the rose and tucked it on his jacket. There were paw prints on the desk, and books scattered on the floor but he didn't saw the cat. He and the woman leaved the study at a distance of five minutes from each other.",
-    culprit:
-      "Dr Granger lives a forbidden love, he is a thief, but a romantic one, he stole Lady Sullivan heart."
-  },
+    10: {
+      message: "Dr Granger wears a black evening suit. He is not very tall, but with a kind smile. He has a red rose tucked  on his jacket.",
+      interrogation: "Agatha asks Dr Granger if he was in the study and where he got  the rose on his jacket that  looks exactly like the petals on the ottoman. Agatha notices that at this question Dr Granger touches the rose on his jacket and sighs. He tells that he was having a rendez-vous with Lady Sullivan . A rose fell on the ottoman from her hairdo, missing some petals. He picked up the rose and tucked it on his jacket. There were paw prints on the desk, and books scattered on the floor but he didn't saw the cat. He and the woman leaved the study at a distance of five minutes from each other.",
+      culprit: "Dr Granger lives a forbidden love, he is a thief, but a romantic one, he stole Lady Sullivan heart."
+    },
 
-  11: {
+    /*11: {
     message:
       "Miss Lavander has big dreamy eyes and an intelligent expression. She wears a light green dress stained by black ink cat paw prints, she is in her 30s.",
     interrogation:
