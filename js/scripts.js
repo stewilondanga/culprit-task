@@ -59,16 +59,13 @@ const cellDescription = {
       culprit: "You catched him! Mr Brimbutton is the thief! He was in the study after everyone except Lord Sullivan! He stole the ruby. A lie was his mistake. Faust the cat is a Sphinx, it has no fur. So Mr Brimbutton couldn't possibly have seen it licking its fur!  The ruby was hidden in his clock! Agatha congrats you. You are a good observer! You catched the thief!"
     },
 
-    /*13: {
-    message:
-      "Lady Sullivan is a young woman in her 20s, with sad blue eyes and an hairdo with real red roses. She is merried with Lord Sullivan",
-    interrogation:
-      "Agatha asks Lady Sullivan if she was in the study. Lady Sullivan looks very nervous  and touches her hair repeatedly. A spot in her hairdo misses a rose. She sighs then takes a seat on the ottoman . She was in the study to see a man other than her husband. There were books on the floor, ink paw prints on the desk and the cat on the window sill. The ruby was in its display case. She leaved the study before the man.",
-    culprit:
-      "Lady Sullivan is a woman in love. Love is the culprit here. She isn't a  ruby's thief!"
-  },
+    13: {
+      message: "Lady Sullivan is a young woman in her 20s, with sad blue eyes and an hairdo with real red roses. She is merried with Lord Sullivan",
+      interrogation: "Agatha asks Lady Sullivan if she was in the study. Lady Sullivan looks very nervous  and touches her hair repeatedly. A spot in her hairdo misses a rose. She sighs then takes a seat on the ottoman . She was in the study to see a man other than her husband. There were books on the floor, ink paw prints on the desk and the cat on the window sill. The ruby was in its display case. She leaved the study before the man.",
+      culprit: "Lady Sullivan is a woman in love. Love is the culprit here. She isn't a  ruby's thief!"
+    },
 
-  14: {
+    /*14: {
     message:
       "Lord Sullivan is a man of 70 years, dressed with an old damask gold evening suit. He has a stern angry look.",
     interrogation:
