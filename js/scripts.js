@@ -140,12 +140,13 @@ function showDescription(e) {
   tableDescription(tableIndex);
 }
 
-/*    const description = document.getElementById("description");
-    function tableDescription(index) {
-      description.textContent = cellDescription[index].message;
-    }
+const description = document.getElementById("description");
 
-    function showInterrogation(e) {
+function tableDescription(index) {
+  description.textContent = cellDescription[index].message;
+}
+
+/*    function showInterrogation(e) {
       let tableData = e.target.getAttribute("data-index");
       description.textContent = cellDescription[tableData].interrogation;
     }
