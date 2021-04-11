@@ -179,11 +179,11 @@ td:nth-of-type(odd) {
   background-color: #f8bf86;
 }
 
-/*tr:nth-of-type(even) td:nth-of-type(odd) {
+tr:nth-of-type(even) td:nth-of-type(odd) {
   background-color: #cc9aff;
 }
 
-tr:nth-of-type(even) td:nth-of-type(even) {
+/*tr:nth-of-type(even) td:nth-of-type(even) {
   background-color: #f8bf86;
 }
 
