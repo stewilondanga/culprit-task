@@ -194,10 +194,10 @@ function interrogatePartyGoers() {
     v.addEventListener("click", showInterrogation);
     v.style.opacity = "1";
   });
-  /*            description.textContent = "Click a name to let Agatha interrogate him/her";
-            }
+  description.textContent = "Click a name to let Agatha interrogate him/her";
+}
 
-            const resetButton = document.querySelector(".reset");
+/*            const resetButton = document.querySelector(".reset");
 
             resetButton.addEventListener("click", resetGame);
 
