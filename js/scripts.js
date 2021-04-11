@@ -19,12 +19,11 @@ const cellDescription = {
       message: "The carpet has been moved, black fibers are on it."
     },
 
-    /*4: {
-    message:
-      "Many books are scattered on the floor, one of them with the title 'Ancient gems of the world' misses a page."
-  },
+    4: {
+      message: "Many books are scattered on the floor, one of them with the title 'Ancient gems of the world' misses a page."
+    },
 
-  5: {
+    /*5: {
     message:
       "A small round table is situated near the study's bay window. There's a glass on it that smells of whisky."
   },
