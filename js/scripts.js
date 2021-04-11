@@ -7,8 +7,8 @@ var navigate = (function() {
   });
 })();
 
-/*const cellDescription = {
-  1: {
+const cellDescription = {
+    /*1: {
     message:
       "The display case is broken, the ruby missing, shattered pieces of glass are scattered on the floor."
   },
