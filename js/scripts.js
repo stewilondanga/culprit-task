@@ -15,11 +15,11 @@ const cellDescription = {
       message: "An ink bottle on the desk is upside down, ink cat paw prints are visible here and there."
     },
 
-    /*3: {
-    message: "The carpet has been moved, black fibers are on it."
-  },
+    3: {
+      message: "The carpet has been moved, black fibers are on it."
+    },
 
-  4: {
+    /*4: {
     message:
       "Many books are scattered on the floor, one of them with the title 'Ancient gems of the world' misses a page."
   },
