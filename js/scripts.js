@@ -53,16 +53,13 @@ const cellDescription = {
       interrogation: "Agatha asks Miss Lavander about the cat paw prints on her dress, she says that she was searching for a book in the study, that Lord Snob talked her about and that that devilish creature of Faust jumped on her, dropping the ink bottle and staining her dress, scarying her to death,  so she leaved the study with no book whatsoever. There were no books on the floor. The ruby still intact.",
       culprit: "Miss  Lavander is an avid reader,  she loves books more then rubies,  she   certainly is not a thief."
     },
-    /*12: {
-    message:
-      "Mr Brimbutton is a medium height man in his 40s, he wears a satin night blue evening suit, he fidgets with a big golden pocket watch in his hand",
-    interrogation:
-      "Agatha asks Mr Brimbutton if he was in the study. He tells Agatha that his clock stopped working, so he went in the study to look at the the mantel clock to know the hour. He sustains that there were no books on the floor and that he saw the cat licking at its fur, sitting on the window sill, the ink and the ruby still intact. He looked at the mantel clock, charged his clock and leaved the room.",
-    culprit:
-      "You catched him! Mr Brimbutton is the thief! He was in the study after everyone except Lord Sullivan! He stole the ruby. A lie was his mistake. Faust the cat is a Sphinx, it has no fur. So Mr Brimbutton couldn't possibly have seen it licking its fur!  The ruby was hidden in his clock! Agatha congrats you. You are a good observer! You catched the thief!"
-  },
+    12: {
+      message: "Mr Brimbutton is a medium height man in his 40s, he wears a satin night blue evening suit, he fidgets with a big golden pocket watch in his hand",
+      interrogation: "Agatha asks Mr Brimbutton if he was in the study. He tells Agatha that his clock stopped working, so he went in the study to look at the the mantel clock to know the hour. He sustains that there were no books on the floor and that he saw the cat licking at its fur, sitting on the window sill, the ink and the ruby still intact. He looked at the mantel clock, charged his clock and leaved the room.",
+      culprit: "You catched him! Mr Brimbutton is the thief! He was in the study after everyone except Lord Sullivan! He stole the ruby. A lie was his mistake. Faust the cat is a Sphinx, it has no fur. So Mr Brimbutton couldn't possibly have seen it licking its fur!  The ruby was hidden in his clock! Agatha congrats you. You are a good observer! You catched the thief!"
+    },
 
-  13: {
+    /*13: {
     message:
       "Lady Sullivan is a young woman in her 20s, with sad blue eyes and an hairdo with real red roses. She is merried with Lord Sullivan",
     interrogation:
