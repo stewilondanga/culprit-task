@@ -226,28 +226,28 @@ function chooseCulprit() {
   });
 }
 
-/*              function showCulprit(e) {
-                let tableData = e.target.getAttribute("data-index");
+function showCulprit(e) {
+  let tableData = e.target.getAttribute("data-index");
 
-                if (tableData === "12") {
-                  const ruby = document.createElement("img");
-                  ruby.src = "https://s19.postimg.cc/jtzq4yhgz/ruby_small.png";
+  /*                if (tableData === "12") {
+                    const ruby = document.createElement("img");
+                    ruby.src = "https://s19.postimg.cc/jtzq4yhgz/ruby_small.png";
 
-                  misteryButtons.forEach(v => {
-                    v.style.opacity = "0";
-                  });
+                    misteryButtons.forEach(v => {
+                      v.style.opacity = "0";
+                    });
 
-                  inhabitants.forEach(v => {
-                    v.removeEventListener("click", showCulprit);
-                  });
+                    inhabitants.forEach(v => {
+                      v.removeEventListener("click", showCulprit);
+                    });
 
-                  partyPeople.forEach(v => {
-                    v.removeEventListener("click", showCulprit);
-                  });
-                  document.querySelector(".mistery").style.opacity = 1;
-                  document.querySelector(".mistery").textContent = "";
-                  document.querySelector(".mistery").appendChild(ruby);
+                    partyPeople.forEach(v => {
+                      v.removeEventListener("click", showCulprit);
+                    });
+                    document.querySelector(".mistery").style.opacity = 1;
+                    document.querySelector(".mistery").textContent = "";
+                    document.querySelector(".mistery").appendChild(ruby);
+                  }
+
+                  description.textContent = cellDescription[tableData].culprit;
                 }
-
-                description.textContent = cellDescription[tableData].culprit;
-              }
