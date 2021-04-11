@@ -117,142 +117,139 @@ const cellDescription = {
       culprit: "Meooww Meoowww Purrrrr!!!"
     },
 
-    /*    23: {
-          message:
-            "The stableman, good-looking man in his 30, deep blue eyes and catchy smile. He wears a brown working suits.",
-          interrogation:
-            "Agatha asks the stableman if he was in the study during the party. He tells her he was in the stable to look after the horses. He entered the mansion in search of the waitress, but she saw her with a lady in the sewing room, so he leaved. He suspects that the boy could be the culprit, he has swollen pockets with apples from orchards or sweets from the kitchen all the time. He is a little scoundrel with a knack for stealing things.",
-          culprit:
-            "The stableman is too busy trying seducing the waitress, he didn't stole the ruby!"
-        },
-        24: {
-          message:
-            "The boy. Big smile and smart brown eyes, blue jacket and pants and shoes too big for him.",
-          interrogation:
-            "Agatha asks the boy if he was in the study that night. He tells her he was never in the study. He was in the kitchen to ask the cook if she needed help, but never entered the study. He thinks that the stableman could be the culprit, he is always too eager to enter the mansion for this reason ot that.",
-          culprit:
-            "The boy likes the cook's sweets more then gems. He didn't stole the ruby!"
+    23: {
+      message: "The stableman, good-looking man in his 30, deep blue eyes and catchy smile. He wears a brown working suits.",
+      interrogation: "Agatha asks the stableman if he was in the study during the party. He tells her he was in the stable to look after the horses. He entered the mansion in search of the waitress, but she saw her with a lady in the sewing room, so he leaved. He suspects that the boy could be the culprit, he has swollen pockets with apples from orchards or sweets from the kitchen all the time. He is a little scoundrel with a knack for stealing things.",
+      culprit: "The stableman is too busy trying seducing the waitress, he didn't stole the ruby!"
+    },
+    /*      24: {
+            message:
+              "The boy. Big smile and smart brown eyes, blue jacket and pants and shoes too big for him.",
+            interrogation:
+              "Agatha asks the boy if he was in the study that night. He tells her he was never in the study. He was in the kitchen to ask the cook if she needed help, but never entered the study. He thinks that the stableman could be the culprit, he is always too eager to enter the mansion for this reason ot that.",
+            culprit:
+              "The boy likes the cook's sweets more then gems. He didn't stole the ruby!"
+          }
+        };
+
+        const initialTableCell = document.querySelectorAll(".mistery-button");
+        initialTableCell.forEach((v, i) => {
+          v.addEventListener("click", showDescription);
+        });
+
+        function showDescription(e) {
+          let tableIndex = e.target.getAttribute("data-index");
+
+          tableDescription(tableIndex);
         }
-      };
 
-      const initialTableCell = document.querySelectorAll(".mistery-button");
-      initialTableCell.forEach((v, i) => {
-        v.addEventListener("click", showDescription);
-      });
+        const description = document.getElementById("description");
+        function tableDescription(index) {
+          description.textContent = cellDescription[index].message;
+        }
 
-      function showDescription(e) {
-        let tableIndex = e.target.getAttribute("data-index");
+        function showInterrogation(e) {
+          let tableData = e.target.getAttribute("data-index");
+          description.textContent = cellDescription[tableData].interrogation;
+        }
 
-        tableDescription(tableIndex);
-      }
+        const mansionInhabitants = document.querySelector(".interrogate-inhabitants");
 
-      const description = document.getElementById("description");
-      function tableDescription(index) {
-        description.textContent = cellDescription[index].message;
-      }
+        mansionInhabitants.addEventListener("click", interrogateInhabitants);
 
-      function showInterrogation(e) {
-        let tableData = e.target.getAttribute("data-index");
-        description.textContent = cellDescription[tableData].interrogation;
-      }
+        const partyGoers = document.querySelector(".interrogate-goers");
+        partyGoers.addEventListener("click", interrogatePartyGoers);
 
-      const mansionInhabitants = document.querySelector(".interrogate-inhabitants");
+        const misteryButtons = document.querySelectorAll(".mistery-button");
+        const inhabitants = document.querySelectorAll(".inhabitants");
+        const partyPeople = document.querySelectorAll(".party-goers");
 
-      mansionInhabitants.addEventListener("click", interrogateInhabitants);
-
-      const partyGoers = document.querySelector(".interrogate-goers");
-      partyGoers.addEventListener("click", interrogatePartyGoers);
-
-      const misteryButtons = document.querySelectorAll(".mistery-button");
-      const inhabitants = document.querySelectorAll(".inhabitants");
-      const partyPeople = document.querySelectorAll(".party-goers");
-
-      function interrogateInhabitants() {
-        misteryButtons.forEach(v => {
-          v.removeEventListener("click", showDescription);
-          v.style.opacity = "0";
-        });
-
-        partyPeople.forEach(v => {
-          v.removeEventListener("click", showInterrogation);
-        });
-        inhabitants.forEach(v => {
-          v.addEventListener("click", showInterrogation);
-          v.style.opacity = "1";
-        });
-
-        description.textContent = "Click a name to let Agatha interrogate him/her";
-      }
-
-      function interrogatePartyGoers() {
-        misteryButtons.forEach(v => {
-          v.removeEventListener("click", showDescription);
-          v.style.opacity = "0";
-        });
-
-        inhabitants.forEach(v => {
-          v.removeEventListener("click", showInterrogation);
-          v.style.opacity = "0";
-        });
-
-        partyPeople.forEach(v => {
-          v.addEventListener("click", showInterrogation);
-          v.style.opacity = "1";
-        });
-        description.textContent = "Click a name to let Agatha interrogate him/her";
-      }
-
-      const resetButton = document.querySelector(".reset");
-
-      resetButton.addEventListener("click", resetGame);
-
-      function resetGame() {
-         window.location.href = window.location.href;
-      }
-
-      document.querySelector(".culprit").addEventListener("click", chooseCulprit);
-
-      function chooseCulprit() {
-        misteryButtons.forEach(v => {
-          v.removeEventListener("click", showDescription);
-          v.style.opacity = "0";
-        });
-
-        partyPeople.forEach(v => {
-          v.removeEventListener("click", showInterrogation);
-          v.addEventListener("click", showCulprit);
-          v.style.opacity = "1";
-        });
-
-        inhabitants.forEach(v => {
-          v.removeEventListener("click", showInterrogation);
-          v.addEventListener("click", showCulprit);
-          v.style.opacity = "1";
-        });
-      }
-
-      function showCulprit(e) {
-        let tableData = e.target.getAttribute("data-index");
-
-        if (tableData === "12") {
-          const ruby = document.createElement("img");
-          ruby.src = "https://s19.postimg.cc/jtzq4yhgz/ruby_small.png";
-
+        function interrogateInhabitants() {
           misteryButtons.forEach(v => {
+            v.removeEventListener("click", showDescription);
+            v.style.opacity = "0";
+          });
+
+          partyPeople.forEach(v => {
+            v.removeEventListener("click", showInterrogation);
+          });
+          inhabitants.forEach(v => {
+            v.addEventListener("click", showInterrogation);
+            v.style.opacity = "1";
+          });
+
+          description.textContent = "Click a name to let Agatha interrogate him/her";
+        }
+
+        function interrogatePartyGoers() {
+          misteryButtons.forEach(v => {
+            v.removeEventListener("click", showDescription);
             v.style.opacity = "0";
           });
 
           inhabitants.forEach(v => {
-            v.removeEventListener("click", showCulprit);
+            v.removeEventListener("click", showInterrogation);
+            v.style.opacity = "0";
           });
 
           partyPeople.forEach(v => {
-            v.removeEventListener("click", showCulprit);
+            v.addEventListener("click", showInterrogation);
+            v.style.opacity = "1";
           });
-          document.querySelector(".mistery").style.opacity = 1;
-          document.querySelector(".mistery").textContent = "";
-          document.querySelector(".mistery").appendChild(ruby);
+          description.textContent = "Click a name to let Agatha interrogate him/her";
         }
 
-        description.textContent = cellDescription[tableData].culprit;
-      }
+        const resetButton = document.querySelector(".reset");
+
+        resetButton.addEventListener("click", resetGame);
+
+        function resetGame() {
+           window.location.href = window.location.href;
+        }
+
+        document.querySelector(".culprit").addEventListener("click", chooseCulprit);
+
+        function chooseCulprit() {
+          misteryButtons.forEach(v => {
+            v.removeEventListener("click", showDescription);
+            v.style.opacity = "0";
+          });
+
+          partyPeople.forEach(v => {
+            v.removeEventListener("click", showInterrogation);
+            v.addEventListener("click", showCulprit);
+            v.style.opacity = "1";
+          });
+
+          inhabitants.forEach(v => {
+            v.removeEventListener("click", showInterrogation);
+            v.addEventListener("click", showCulprit);
+            v.style.opacity = "1";
+          });
+        }
+
+        function showCulprit(e) {
+          let tableData = e.target.getAttribute("data-index");
+
+          if (tableData === "12") {
+            const ruby = document.createElement("img");
+            ruby.src = "https://s19.postimg.cc/jtzq4yhgz/ruby_small.png";
+
+            misteryButtons.forEach(v => {
+              v.style.opacity = "0";
+            });
+
+            inhabitants.forEach(v => {
+              v.removeEventListener("click", showCulprit);
+            });
+
+            partyPeople.forEach(v => {
+              v.removeEventListener("click", showCulprit);
+            });
+            document.querySelector(".mistery").style.opacity = 1;
+            document.querySelector(".mistery").textContent = "";
+            document.querySelector(".mistery").appendChild(ruby);
+          }
+
+          description.textContent = cellDescription[tableData].culprit;
+        }
