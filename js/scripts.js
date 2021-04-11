@@ -134,13 +134,13 @@ initialTableCell.forEach((v, i) => {
   v.addEventListener("click", showDescription);
 });
 
-/*    function showDescription(e) {
-      let tableIndex = e.target.getAttribute("data-index");
+function showDescription(e) {
+  let tableIndex = e.target.getAttribute("data-index");
 
-      tableDescription(tableIndex);
-    }
+  tableDescription(tableIndex);
+}
 
-    const description = document.getElementById("description");
+/*    const description = document.getElementById("description");
     function tableDescription(index) {
       description.textContent = cellDescription[index].message;
     }
