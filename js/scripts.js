@@ -158,8 +158,8 @@ mansionInhabitants.addEventListener("click", interrogateInhabitants);
 const partyGoers = document.querySelector(".interrogate-goers");
 partyGoers.addEventListener("click", interrogatePartyGoers);
 
-/*    const misteryButtons = document.querySelectorAll(".mistery-button");
-    const inhabitants = document.querySelectorAll(".inhabitants");
+const misteryButtons = document.querySelectorAll(".mistery-button");
+/*    const inhabitants = document.querySelectorAll(".inhabitants");
     const partyPeople = document.querySelectorAll(".party-goers");
 
     function interrogateInhabitants() {
