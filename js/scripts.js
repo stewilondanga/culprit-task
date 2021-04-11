@@ -199,9 +199,9 @@ function interrogatePartyGoers() {
 
 const resetButton = document.querySelector(".reset");
 
-/*            resetButton.addEventListener("click", resetGame);
+resetButton.addEventListener("click", resetGame);
 
-            function resetGame() {
+/*            function resetGame() {
                window.location.href = window.location.href;
             }
 
